@@ -1,14 +1,25 @@
-h1 {color: yellow; font-family: arial; background-color: blue; text-align: center; margin-top: 0%;
+h1 {color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;; font-family: Gabrielle; text-align: center; margin-top: 0%;
 }
-h2 {color: yellow; font-family: arial;
-}
-p {color: blue; font-family: arial;
+h2 {color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue; font-family: Arial;
 }
 body {background-image: url("http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zed_1.jpg"); background-size : cover;
 }
-ul {color: blue; background-color: yellow; margin-right: 70%;
+ul {color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;; margin-right: 70%; display: inline; ; font-family: Arial;
 }
-table {border-collapse: collapse; color: blue; margin: auto;
+table {border-collapse: collapse; color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;; margin: auto; border-color: navy;
 }
-.coma {text-align: center;
+.coma {text-align: center; color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;;
 }
+li {color : color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;;
+}
+td {font-size: 20px;
+}
+@font-face {
+    font-family: "Gabrielle";
+    src: url("Gabrielle.ttf");
