@@ -1,9 +1,14 @@
 h1 {color: yellow; font-family: arial; background-color: blue; text-align: center; margin-top: 0%;
 }
-h2 {color: blue; font-family: arial;
+h2 {color: yellow; font-family: arial;
 }
-p {color: blue; font-family: arial; text-align: center;
+p {color: blue; font-family: arial;
 }
 body {background-image: url("http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zed_1.jpg"); background-size : cover;
 }
-ul {color: blue; background-color: yellow; margin-right: 70%;}
+ul {color: blue; background-color: yellow; margin-right: 70%;
+}
+table {border-collapse: collapse; color: blue; margin: auto;
+}
+.coma {text-align: center;
+}
