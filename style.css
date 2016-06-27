@@ -1,29 +1,29 @@
 h1 {color: white;
-    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;; font-family: Gabrielle; text-align: center; margin-top: 0%;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;; font-family: Gabrielle; text-align: center; margin-top: 0%; /*Couleur, apparence de ma police, police spéciale "Gabrielle", alignement au centre de mon texte, marge 0% de mon titre de site*/
 }
 h2 {color: white;
-    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue; font-family: Arial;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue; font-family: Gabrielle; /*Couleur, apparence et police spéciale de mon titre de paragraphe*/
 }
-body {background-image: url("http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zed_1.jpg"); background-size : cover;
+body {background-image: url("http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zed_1.jpg"); background-size : cover; /*Image en arrière plan de mon site, sur tout le fond de mon site*/
 }
 ul {color: white;
-    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;; margin-right: 70%; display: inline; ; font-family: Arial;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue; margin-right: 70%; display: inline; ; font-family: Arial; /*Couleur, apparence, police, marge 70%, uniquement sur les caractère de ma liste*/
 }
-table {border-collapse: collapse; color: white; 
-    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;; margin: auto; border-color: navy;
+table {border-collapse: collapse; color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue; margin: auto; border-color: navy; font-family : Arial; /*Fusionner les bordures du tableau, encadrement, margin automatique, couleur de bordure, police*/
 }
 .coma {text-align: center; color: white;
-    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue; /*Alignement au centre du texte de la balise "coma", couleur, apparence de la police*/
 }
 li {color : color: white;
-    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue; /*Couleur des listes, apparences de la police*/
 }
-td {font-size: 20px;
+td {font-size: 20px; /*Taille des cellules du tableau "20 pixels"*/
 }
 @font-face {
     font-family: "Gabrielle";
-    src: url("Gabrielle.ttf");
+    src: url("Gabrielle.ttf"); /*Importation d'une police spéciale "Gabrielle"*/
   }
 footer {text-align: center; color: white;
-    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue; font-family: Arial /*Alignement du texte, couleur du texte, apparence du texte et la police du bas de page*/
 }
